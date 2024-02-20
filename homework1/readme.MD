@@ -9,7 +9,7 @@
 Критерии успешности MVP: FP < 5%, FN < 2%
 
 ## 3. Анализ особенностей проекта
-![](mission canvas.png)
+![MISSION canvas](mission%20canvas.png?raw=true "MISSION canvas")
 
 ## 4. Функциональные части планируемой системы
 1. Виртуальная машина с Apache Airflow
