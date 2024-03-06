@@ -10,8 +10,8 @@ from pyspark.sql.functions import isnan, when, count, col
 spark = SparkSession.builder.appName('g1').getOrCreate()
 hadoop_conf = spark.sparkContext._jsc.hadoopConfiguration()
 hadoop_conf.set("fs.s3.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
-hadoop_conf.set("fs.s3a.access.key", "YCAJEQ6hoybux3TZsjsbpURg4")
-hadoop_conf.set("fs.s3a.secret.key", "YCPhC9mxk9Or5WIqcbyvUMpogn2UbWyHlRedILTb")
+hadoop_conf.set("fs.s3a.access.key", "some key")
+hadoop_conf.set("fs.s3a.secret.key", "some secret")
 hadoop_conf.set("fs.s3a.endpoint", "storage.yandexcloud.net")
 
 from pyspark.sql.types import StructType, StructField
