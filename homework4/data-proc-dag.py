@@ -96,3 +96,4 @@ with DAG(
 
     # Формирование DAG из указанных выше этапов
     create_spark_cluster >> poke_spark_processing >> delete_spark_cluster
+    
