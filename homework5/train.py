@@ -87,8 +87,8 @@ tt = scaled.randomSplit([0.8, 0.2])
 training = tt[0]
 test = tt[1]
 
-os.environ["AWS_ACCESS_KEY_ID"] = "YCAJEsMkTeWfF5SgBtFgpXcNq"
-os.environ["AWS_SECRET_ACCESS_KEY"] = "YCP5L2m54HTfALwi4b3huQJdRuq2qo_ZHJ_kUv44"
+os.environ["AWS_ACCESS_KEY_ID"] = "key"
+os.environ["AWS_SECRET_ACCESS_KEY"] = "secret"
 os.environ["MLFLOW_S3_ENDPOINT_URL"] = "https://storage.yandexcloud.net"
 os.environ["AWS_DEFAULT_REGION"] = "ru-central1"
 
